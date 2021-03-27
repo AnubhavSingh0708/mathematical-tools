@@ -15,17 +15,17 @@
          color: black;
          border: solid black 2px;
          width:100%;
-          font-size: 200%;
+          font-size: 100%;
           height:100%;
          }
   
          input[type="text"]
          {
-          font-size: 200%;
+          font-size: 100%;
          background-color:white;
          border: solid black 2px;
          width:100%;
-          height:100%;
+          height:18vh;
          }
 tr {
  font-size: 200%;
