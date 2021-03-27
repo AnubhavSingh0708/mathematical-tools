@@ -1,6 +1,6 @@
  .title{
-    width:100%;
-  font-size: 300%;
+         width:100%;
+        font-size: 300%;
          margin-bottom: 10px;
          text-align:center;
          color:black;
@@ -18,7 +18,7 @@
           height:100%;
          }
   
-         input[type="number"]
+         input[type="text"]
          {
           font-size: 80%;
          background-color:white;
