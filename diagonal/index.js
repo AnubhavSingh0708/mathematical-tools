@@ -5,6 +5,5 @@ function calculate() {
    var b = document.getElementById("b-value").value;
   var c = Math.sqrt(Math.pow(a, 2)+Math.pow(b, 2));
  document.getElementById("c-value").innerHTML = c;
- alert(c);
  setTimeout(function(){calculate(); }, 1000);
     }
