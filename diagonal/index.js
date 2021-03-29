@@ -12,6 +12,7 @@ var green = Math.sqrt(Math.pow(a, 2)+Math.pow((b/2), 2));;
  document.getElementById("c-value").innerHTML = c;
   document.getElementById("d-value").innerHTML = d;
   document.getElementById("e-value").innerHTML = e;
+  document.getElementById("blue").innerHTML = blue;
  document.getElementById("red").innerHTML = red;
   document.getElementById("green").innerHTML = green;
  setTimeout(function(){calculate(); }, 1000);
