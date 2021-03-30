@@ -17,6 +17,15 @@ body {
 }
 span {
  font-size:150%;  
+
+
+  border: 1vmin solid;
+
+  border-image: linear-gradient(var(--angle), green, yellow) 1;
+
+  
+
+  animation: 10s rotate linear infinite;
 }
 @keyframes rotate {
 
