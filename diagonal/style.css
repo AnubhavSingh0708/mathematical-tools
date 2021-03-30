@@ -2,10 +2,38 @@ input {
   width:100%;
   height:80px;
   font-size:150%;
+  --angle: 0deg;
+
+  border: 1vmin solid;
+
+  border-image: linear-gradient(var(--angle), white,#9f9f9f) 1;
+
+  
+
+  animation: 10s rotate linear infinite;
 }
 body {
  font-size:150%; 
 }
 span {
  font-size:150%;  
+}
+@keyframes rotate {
+
+  to {
+
+    --angle: 360deg;
+
+  }
+
+}
+
+@property --angle {
+
+  syntax: '<angle>';
+
+  initial-value: 0deg;
+
+  inherits: false;
+
 }
