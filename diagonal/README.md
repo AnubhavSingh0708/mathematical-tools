@@ -1,4 +1,5 @@
-# mathematical-tools/diagonal
+# mathematical-tools/diagonal 
+![Image of diagonal](Screenshot_2021-03-30-21-39-30-070.jpeg)
 a free and open source diagonal calculator 
 [demo](https://anubhavsingh0708.github.io/mathematical-tools/diagonal/)
 ## formula
