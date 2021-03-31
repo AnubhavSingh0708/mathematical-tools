@@ -22,7 +22,6 @@ margin: 20px;
   border: 1vmin solid;
   border-image: linear-gradient(var(--angle), white,#9f9f9f)1 ;
 
-  background-origin: border-box;
 
 
   animation: 10s rotate linear infinite;
