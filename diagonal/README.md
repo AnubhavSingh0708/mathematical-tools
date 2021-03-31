@@ -33,7 +33,14 @@ sin(e°)*a
 (Math.sin(e*(Math.PI/180))*a); 
 ```
 ### green line=
-√(a²+(b/2)²)
-
-### green line=
+√(a²+(b/2)²) 
+#### javascript code
+```
+Math.sqrt(Math.pow(a, 2)+Math.pow((b/2), 2)); 
+```
+### red line=
 √((a/2)²+b²)
+#### javscript
+``` 
+Math.sqrt(Math.pow((a/2), 2)+Math.pow(b, 2));
+```
