@@ -1,5 +1,4 @@
 const form1 = document.querySelector('.diagonal');
-setTimeout(function(){calculate(); }, 1000);
 function calculate() {
  var a = document.getElementById("a-value").value;
    var b = document.getElementById("b-value").value;
@@ -15,5 +14,4 @@ var green = Math.sqrt(Math.pow(a, 2)+Math.pow((b/2), 2));
   document.getElementById("blue").innerHTML = blue;
  document.getElementById("red").innerHTML = red;
   document.getElementById("green").innerHTML = green;
- setTimeout(function(){calculate(); }, 1000);
     }
