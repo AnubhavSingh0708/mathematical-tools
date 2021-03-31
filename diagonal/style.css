@@ -12,7 +12,7 @@ input {
   
 
   animation: 10s rotate linear infinite;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 body {
  font-size:150%; 
@@ -27,7 +27,7 @@ margin: 20px;
   
 
   animation: 10s rotate linear infinite;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 @keyframes rotate {
 
