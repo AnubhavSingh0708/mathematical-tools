@@ -7,14 +7,14 @@ input {
 
   border: double 1vmin transparent;
 
-  border-image: linear-gradient(white, white), linear-gradient(var(--angle), white,#9f9f9f) 1;
+  border-image: linear-gradient(white, white), linear-gradient(var(--angle), white,#9f9f9f) ;
 
   background-origin: border-box;
 
   background-clip: content-box, border-box;
 border-collapse: separate; 
   animation: 10s rotate linear infinite;
-  border-radius: 50px;
+  border-radius: 25px;
 }
 body {
  font-size:150%; 
@@ -24,14 +24,14 @@ span {
 margin: 20px;
   border: double 1vmin transparent;
 border-collapse: separate; 
-  border-image:linear-gradient(white, white),  linear-gradient(var(--angle), white,#9f9f9f) 1;
+  border-image:linear-gradient(white, white),  linear-gradient(var(--angle), white,#9f9f9f) ;
 
   background-origin: border-box;
 
   background-clip: content-box, border-box;
 
   animation: 10s rotate linear infinite;
-  border-radius: 50px;
+  border-radius: 25px;
 }
 @keyframes rotate {
 
