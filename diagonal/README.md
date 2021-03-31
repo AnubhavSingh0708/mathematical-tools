@@ -1,6 +1,7 @@
 ![Image of diagonal](Screenshot_2021-03-30-21-39-30-070.jpeg)
 # mathematical-tools/diagonal 
 a free and open source diagonal calculator 
+## ![status of diagonal](https://img.shields.io/badge/status-ready%20to%20use-brightgreen)
 ## [demo](https://anubhavsingh0708.github.io/mathematical-tools/diagonal/)
 ## formula
 ### C or hypotenuse =
