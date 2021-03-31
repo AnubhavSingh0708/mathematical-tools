@@ -27,8 +27,13 @@ the javascript code is similar to the previous
 (180/Math.PI) * (Math.asin(b/c)); 
 ```
 ### blue line =
-sin(e°)*a
+sin(e°)*a 
+#### javascript code 
+```
+(Math.sin(e*(Math.PI/180))*a); 
+```
 ### green line=
 √(a²+(b/2)²)
+
 ### green line=
 √((a/2)²+b²)
