@@ -28,6 +28,7 @@ the javascript code is similar to the previous
 ```
 ### blue line =
 sin(e°)*a
-green line=√(a²+(b/2)²)
-
-green line=√((a/2)²+b²)
+### green line=
+√(a²+(b/2)²)
+### green line=
+√((a/2)²+b²)
