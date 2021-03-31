@@ -7,7 +7,7 @@ input {
 
   border: double 1vmin solid;
 
-  border-image: linear-gradient(white, white), linear-gradient(var(--angle), white,#9f9f9f) ;
+  border-image: linear-gradient(white, white), linear-gradient(var(--angle), white,#9f9f9f)1 ;
 
   background-origin: border-box;
 
@@ -22,9 +22,9 @@ body {
 span {
  font-size:150%;  
 margin: 20px;
-  border: double 1vmin transparent;
+  border: double 1vmin solid;
 border-collapse: separate; 
-  border-image:linear-gradient(white, white),  linear-gradient(var(--angle), white,#9f9f9f) ;
+  border-image:linear-gradient(white, white),  linear-gradient(var(--angle), white,#9f9f9f)1 ;
 
   background-origin: border-box;
 
