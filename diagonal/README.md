@@ -3,7 +3,7 @@ a free and open source diagonal calculator
 ## formula
 ### C or hypotenuse =
 √(a²+b²)
-### angle theta 1 =
+### angle e =
  sin(opposite / hypotenuse) so e = asin(b/c)
-### angle theta 2 d=
+### angle d=
  asin(a/c)
