@@ -10,7 +10,7 @@ input {
   border-image: linear-gradient(var(--angle), white,#9f9f9f) 1;
 
   
-
+border-collapse: separate; 
   animation: 10s rotate linear infinite;
   border-radius: 50px;
 }
@@ -21,7 +21,7 @@ span {
  font-size:150%;  
 margin: 20px;
   border: 1vmin solid;
-
+border-collapse: separate; 
   border-image: linear-gradient(var(--angle), white,#9f9f9f) 1;
 
   
