@@ -1,7 +1,7 @@
-# mathematical-tools/diagonal 
 ![Image of diagonal](Screenshot_2021-03-30-21-39-30-070.jpeg)
+# mathematical-tools/diagonal 
 a free and open source diagonal calculator 
-[demo](https://anubhavsingh0708.github.io/mathematical-tools/diagonal/)
+## [demo](https://anubhavsingh0708.github.io/mathematical-tools/diagonal/)
 ## formula
 ### C or hypotenuse =
 `√(a²+b²)`
