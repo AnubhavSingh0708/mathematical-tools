@@ -20,3 +20,8 @@ and converting it in degrees using
 ```
 ### angle d=
 `asin(a/c)`
+#### javascript code 
+the javascript code is similar to the previous 
+```
+(180/Math.PI) * (Math.asin(b/c)); 
+```
