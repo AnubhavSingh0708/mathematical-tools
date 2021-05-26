@@ -1,9 +1,7 @@
 function PCDcalc(){
   document.getElementById("PCD").value =  (document.getElementById("CLi").value)/Math.sin((360/(2*(document.getElementById("hole").value)))*Math.PI/180);
   document.getElementById("abs").innerHTML=360/(document.getElementById("hole").value);
-  var copyText = document.getElementById("PCD");
-  copyText.select();
-  document.execCommand("copy");
+  
 }
 function Hcalc(){
   var PCr = (document.getElementById("PCD").value)/2;
@@ -12,9 +10,7 @@ function Hcalc(){
   var ans =360/(answer*180/Math.PI);
   document.getElementById("hole").value = ans;
   document.getElementById("abs").innerHTML=360/ans;
-  var copyText1 = document.getElementById("hole");
-  copyText1.select();
-  document.execCommand("copy");
+
 }
 function CLcalc(){
   var PCr = (document.getElementById("PCD").value)/2;
@@ -23,9 +19,8 @@ function CLcalc(){
   var ans =2*PCr* Math.sin((answer/2)*Math.PI/180);
   document.getElementById("CLi").innerHTML = ans;
   document.getElementById("abs").innerHTML=360/(document.getElementById("hole").value);
-  var copyText2 = document.getElementById("CLi");
-  copyText2.select();
-  document.execCommand("copy");
+
+
 }
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
