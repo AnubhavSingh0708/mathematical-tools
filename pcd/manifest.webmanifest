@@ -1,0 +1,15 @@
+{
+  "background_color": "#c0c0c0",
+  "description": "a pcd calculator.",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "pcd.png",
+      "sizes": "700x700",
+      "type": "image/png"
+    }
+  ],
+  "name": "PCD calculator",
+  "short_name": "PCD",
+  "start_url": "/mathematical-tools/pcd/index.html"
+}
