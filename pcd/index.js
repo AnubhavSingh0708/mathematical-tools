@@ -12,8 +12,8 @@ function Hcalc(){
   var ans =360/(answer*180/Math.PI);
   document.getElementById("hole").value = ans;
   document.getElementById("abs").innerHTML=360/ans;
-  var copyText = document.getElementById("hole");
-  copyText.select();
+  var copyText1 = document.getElementById("hole");
+  copyText1.select();
   document.execCommand("copy");
 }
 function CLcalc(){
@@ -23,8 +23,8 @@ function CLcalc(){
   var ans =2*PCr* Math.sin((answer/2)*Math.PI/180);
   document.getElementById("CLi").innerHTML = ans;
   document.getElementById("abs").innerHTML=360/(document.getElementById("hole").value);
-  var copyText = document.getElementById("CLi");
-  copyText.select();
+  var copyText2 = document.getElementById("CLi");
+  copyText2.select();
   document.execCommand("copy");
 }
 if ('serviceWorker' in navigator) {
