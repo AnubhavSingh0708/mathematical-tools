@@ -14,7 +14,7 @@ function Hcalc(){
 }
 function CLcalc(){
   var ans1 =2*((document.getElementById("PCD").value)/2)* Math.sin(((360/(document.getElementById("hole").value))/2)*Math.PI/180);
-  document.getElementById("CLi").innerHTML = ans1;
+  document.getElementById("CLi").value = ans1;
   document.getElementById("abs").innerHTML=360/(document.getElementById("hole").value);
 
 
