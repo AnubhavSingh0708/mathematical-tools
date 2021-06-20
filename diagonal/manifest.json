@@ -1,8 +1,15 @@
 {
   "background_color": "grey",
-  "description": "A simle diagonal calculator",
+  "description": "A simple diagonal calculator",
   "display": "standalone",
+  "theme_color": "#317EFB",
   "icons": [
+    {
+      "src": "diagonal.svg",
+      "sizes": "300x300",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
     {
       "src": "diagonal.svg",
       "sizes": "300x300",
