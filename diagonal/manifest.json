@@ -1,0 +1,15 @@
+{
+  "background_color": "grey",
+  "description": "A simle diagonal calculator",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "diagonal.svg",
+      "sizes": "300x300",
+      "type": "image/svg+xml"
+    }
+  ],
+  "name": "Diagonal calculator",
+  "short_name": "Diagonal",
+  "start_url": "/mathematical-tools/diagonal/index.html"
+}
