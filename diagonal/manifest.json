@@ -14,6 +14,11 @@
       "src": "diagonal.svg",
       "sizes": "300x300",
       "type": "image/svg+xml"
+    },
+    {
+      "src": "Untilted.png",
+      "sizes": "912x912",
+      "type": "image/png"
     }
   ],
   "name": "Diagonal calculator",
