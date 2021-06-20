@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta name="description" content="diagonal calculator open source and without ads">
+    <meta name="keywords" content="diagonal ,Diagonal calculator">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Diagonal calculator</title>
+    <style>
+     body{
+        background-image:url("grid.svg");
+        background-attachment: fixed;
+        font-size: 35px;
+      }
+      input {
+        width: 97vw;
+        height: 80px;
+        font-size: 35px;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 20%;
+      }
+      button {
+        border-radius: 20%;
+        width: 28vw;
+        height: 80px;
+        font-size: 35px; 
+        margin: 0px;
+        padding: 0px;
+        background-image: url("grid2.svg");
+      }
+      .add-button {
+        font-size: 20px;
+  position: fixed;
+  top: 1px;
+  right: 1px;
+}
+#Bluediv {
+color: blue;
+}
+#Greendiv {
+  color: green;
+}
+#Reddiv{
+  color: red;
+}
+      </style>
+     <link rel="icon" type="image/svg+xml" href="diagonal.svg">
+     <link rel="mask-icon" href="diagonal.svg" color="#ff8a01">
+  </head>
+  <body>
+    <!--<button class="add-button">Add to home screen <img src="download.svg"></button>-->
+    <img src="diagonal.svg"><br>
+    <button onclick="Acalc()">A</button>
+    <input type="number" placeholder="a" id="Ai"><br>
+    <button onclick="Bcalc()">b</button>
+    <input type="number" placeholder="b" id="Bi"><br>
+    <button onclick="Ccalc()">c</button>
+    <input type="number" placeholder="c" id="Ci">
+    d:<div id="Ddiv"></div>
+    e:<div id="Ediv"></div>
+    <div id="Bluediv">blue</div>
+    <div id="Greendiv">green</div>
+    <div id="Reddiv">red</div>
+   <script src="index.js" defer>
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+input {
+    width:95%;
+    height:80px;
+   margin: 10px;
+    font-size:150%;
+    --angle: 0deg;
+  
+    border: 1vmin solid;
+  
+    border-image: linear-gradient(var(--angle), white,#9f9f9f)1 ;
+  
+  
+    animation: 10s rotate linear infinite;
+    border-radius: 25px;
+  }
+  body {
+   font-size:150%; 
+  }
+  span {
+   font-size:150%;  
+  margin: 20px;
+    border: 1vmin solid;
+    border-image: linear-gradient(var(--angle), white,#9f9f9f)1 ;
+  
+  
+  
+    animation: 10s rotate linear infinite;
+    border-radius: 25px;
+  }
+  @keyframes rotate {
+  
+    to {
+  
+      --angle: 360deg;
+  
+    }
+  
+  }
+  
+  @property --angle {
+  
+    syntax: '<angle>';
+  
+    initial-value: 0deg;
+  
+    inherits: false;
+  
+  }
